@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFC7C7;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section#home {
+    /*background-color: #FFC7C7;*/
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/256/686/non_2x/abstract-dark-pink-gradient-geometric-background-modern-background-design-wave-liquid-shapes-composition-creative-templates-fit-for-presentation-design-website-basis-for-banners-wallpapers-free-vector.jpg");
+
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+section#home h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+section#home p {
+    font-size: 1.2rem;
+}
+
+section#about {
+    text-align: center;
+}
+
+section#pricing .pricing-table {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricing-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+#card1{
+    border-top-left-radius: 10% ;
+    border-bottom-left-radius: 10% ;
+}
+
+#card3{
+    border-top-right-radius: 10% ;
+    border-bottom-right-radius: 10% ;
+}
+
+.pricing-card h3 {
+    margin-top: 0;
+}
+
+.pricing-card .price {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    margin: 10px 0;
+}
+
+section#contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px ;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
